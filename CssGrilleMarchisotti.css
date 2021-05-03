@@ -1,0 +1,125 @@
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  color: black; }
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black; }
+
+/*
+h3{
+    font-family: 'Nunito Sans', sans-serif;  
+    color: black;
+    */
+h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black; }
+
+h5 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black; }
+
+p {
+  color: black; }
+
+nav {
+  height: 26px;
+  width: 100%;
+  list-style: none; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  word-spacing: 10%;
+  list-style: none; }
+
+li {
+  display: inline-block;
+  list-style: none;
+  word-spacing: 10%;
+  position: relative; }
+
+/*
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(88, 88, 88);
+}*/
+a {
+  color: black; }
+
+a:hover {
+  color: white; }
+
+form {
+  padding: 15px;
+  margin: 15px;
+  text-align: center; }
+
+/* solo para la entrega Bootstrap Js */
+@media (max-width: 576px) {
+  h1 {
+    color: red; } }
+
+/* solo para entrega Sass 1 */
+.noticias__titulo {
+  color: yellowgreen;
+  text-decoration-line: underline;
+  font-family: 'Courier New', Courier, monospace; }
+
+.noticias__cuerpo {
+  color: yellowgreen; }
+
+.footer__direccion {
+  font-family: 'Nunito Sans', sans-serif;
+  color: orange; }
+
+.footer__icono img {
+  width: 30px;
+  height: 30px; }
+
+.seccionNosotros__foto div {
+  width: 200px;
+  height: 200px; }
+
+.seccionNosotros__articuloNosotros p {
+  color: yellowgreen; }
+
+.seccionNosotros__articuloAle p {
+  color: blue; }
+
+.seccionNosotros__articuloJuli p {
+  color: purple; }
+
+.empresas__parrafo {
+  color: red; }
+
+.empresas__boton {
+  color: aqua; }
+
+/* solo para entrega Sass 1 */
+/* solo para entrega Sass 2 */
+.section {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 200px 200px 200px; }
+
+.articulo1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; }
+
+.articulo2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5; }
+
+/* solo para entrega Sass 2 */
